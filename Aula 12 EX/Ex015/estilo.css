@@ -30,7 +30,7 @@ div {
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
-  margin: auto;
+  margin: 15px auto 0;
 }
 
 
