@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(199, 209, 219);
+  background-color: rgb(84, 117, 150);
   font: normal 15pt Arial;
 }
 
@@ -22,7 +22,7 @@ div {
   padding: 8px;
 }
 
-.imagem {
+#foto {
   width: 250px;
   height: 250px;
   border-radius: 100%;
