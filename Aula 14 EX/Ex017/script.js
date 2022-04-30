@@ -1,15 +1,20 @@
 function calcular() {
-  let num = document.getElementById('num')
-  let n = Number(num.value)
-  let mult = 1
-
-  while(mult <= 10) {
-    let res = document.getElementById('res')
-    res.innerHTML = `${n} x ${mult} = ${n*mult}</br>`
-    mult++
-  }
+  let num = document.getElementById('txtn')
+  let tab = document.getElementById('seltab')
   
-  //for(let mult = 1; mult <= 10; mult++) {
-    //res.innerHTML = `${n} x ${mult} = ${n*mult}</br>`
-  //}
+  if(num.value.length == 0) {
+    alert('Por favor, digite um número!')
+  } else {
+    let n = Number(num.value)
+    let c = 1
+    tab.innerHTML = ''
+    while (c <= 10) {
+      let item = document.createElement('option')
+      item.text = `${n} x ${c} = ${n*c}`
+      item.value = 'tab$(c)'
+      tab.appendChild(item)
+      c++
+    }
+    }
+  
 }
