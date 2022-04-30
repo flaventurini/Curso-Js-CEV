@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(208, 233, 184);
+  background-color: rgb(53, 141, 50);
   font: normal 15pt Arial;
 }
 
@@ -23,7 +23,6 @@ footer {
   font-style: italic;
 }
 
-h1 {
-  text-shadow: 2px 2px 2px rgba(169, 169, 169, 0.453);
+#num {
+  margin-right: 8px;
 }
-
