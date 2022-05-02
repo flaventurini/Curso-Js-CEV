@@ -21,6 +21,16 @@ function contar() {
       for(let c = i; c <= f; c += p) {
         res.innerHTML += ` ${c} \u{1F449}`
       }
+      
+      /* Opção com while 
+      
+      let c = i
+      while (c <= f) {
+        res.innerHTML += `${c} \u{1F449}`
+        c += p
+      }
+      
+      */
 
     } else {
       // Contagem regressiva
@@ -28,6 +38,15 @@ function contar() {
         res.innerHTML += ` ${c} \u{1F449}`
       }
       
+      /* Opção com while 
+      
+      let c = i
+      while (c >= f) {
+        res.innerHTML += `${c} \u{1F449}`
+        c -= p
+      }
+      
+      */
     }
     res.innerHTML += `\u{1F3C1}`
   }
