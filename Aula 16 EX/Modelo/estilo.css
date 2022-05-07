@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(199, 209, 219);
+  background-color: rgb(85, 138, 191);
   font: normal 15pt Arial;
 }
 
@@ -9,7 +9,7 @@ header {
 }
 
 section {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.493);
   border-radius: 10px;
   padding: 15px;
   width: 500px;
